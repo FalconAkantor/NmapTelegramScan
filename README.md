@@ -7,7 +7,7 @@ Este proyecto es un script en Python que utiliza `nmap` para escanear una red lo
 
 - **Escaneo de Red**: Detecta dispositivos activos en la red usando `nmap`.
 - **Monitoreo de Estado**: Realiza un seguimiento del estado de conexión y desconexión de cada dispositivo.
-- **Notificaciones de Telegram**: Envía notificaciones en tiempo real a través de Telegram con el estado actual de los dispositivos.
+- **Notificaciones de Telegram**: Envía notificaciones en tiempo real a través de Telegram con el estado actual de los dispositivos documentada por dias, horas, minutos y segundos.
 - **Actualización Periódica**: Actualiza el estado y las notificaciones en intervalos configurables.
 
 ## Requisitos
