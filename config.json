@@ -1,0 +1,6 @@
+{
+    "TELEGRAM_TOKEN": "TU TOKEN",
+    "CHAT_ID": "TU ID",
+    "NETWORK_RANGE": "192.168.1.0/24",
+    "UPDATE_INTERVAL": 300
+}
