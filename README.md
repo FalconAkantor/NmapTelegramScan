@@ -91,6 +91,14 @@ Para ejecutar el script, asegúrate de tener todos los requisitos instalados y c
 ```sh
 python nombre_del_script.py
 ```
+## Como se ven las conexiones, tapando mis MACs:
+
+![Ejemplo de Notificación en Telegram](imagenes/conectado.png)
+
+## Como se ven las desonexiones, tapando mis MACs:
+
+![Ejemplo de Notificación en Telegram](imagenes/desconectado.png)
+
 ## Automatización con `crontab`
 
 Para ejecutar automáticamente el script en intervalos regulares, puedes usar `crontab` en sistemas basados en Unix (como Linux y macOS). Aquí te explicamos cómo configurarlo:
@@ -110,3 +118,5 @@ Para ejecutar automáticamente el script en intervalos regulares, puedes usar `c
 ```
 @reboot /usr/bin/python3 /ruta/al/script/nombre_del_script.py
 ```
+
+
