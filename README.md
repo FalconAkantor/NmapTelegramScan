@@ -82,3 +82,31 @@ Crea un archivo llamado `config.json` en el mismo directorio que el script con e
     "NETWORK_RANGE": "192.168.1.0/24",
     "UPDATE_INTERVAL": 300
 }
+```
+
+## Ejecución del Script
+
+Para ejecutar el script, asegúrate de tener todos los requisitos instalados y configura tu archivo `config.json` correctamente. Luego, ejecuta el script con:
+
+```sh
+python nombre_del_script.py
+```
+## Automatización con `crontab`
+
+Para ejecutar automáticamente el script en intervalos regulares, puedes usar `crontab` en sistemas basados en Unix (como Linux y macOS). Aquí te explicamos cómo configurarlo:
+
+### Configuración de `crontab`
+
+1. **Abrir el archivo de configuración de `crontab`**:
+   
+   Abre una terminal y edita el archivo de configuración de `crontab` con el siguiente comando:
+
+   ```sh
+   crontab -e
+   ```
+   
+2. **Configuración interna en `crontab`**:
+
+```
+@reboot /usr/bin/python3 /ruta/al/script/nombre_del_script.py
+```
