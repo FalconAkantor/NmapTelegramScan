@@ -118,7 +118,7 @@ Crea un archivo llamado `config.json` en el mismo directorio que el script con e
 Para ejecutar el script, asegúrate de tener todos los requisitos instalados y configura tu archivo `config.json` correctamente. Luego, ejecuta el script con:
 
 ```sh
-python nombre_del_script.py
+python3 nmap.py
 ```
 ## Como se ven las conexiones, tapando mis MACs:
 
@@ -145,7 +145,7 @@ Para ejecutar automáticamente el script en intervalos regulares, puedes usar `c
 2. **Configuración interna en `crontab`**:
 
 ```
-@reboot /usr/bin/python3 /ruta/al/script/nombre_del_script.py
+@reboot /usr/bin/python3 /ruta/al/script/nmap.py
 ```
 
 
