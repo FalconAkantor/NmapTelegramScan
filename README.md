@@ -3,6 +3,35 @@
 
 Este proyecto es un script en Python que utiliza `nmap` para escanear una red local y notificar sobre el estado de los dispositivos (conectados y desconectados) a través de Telegram. Ideal para administradores de redes y entusiastas que desean monitorear la presencia de dispositivos en su red de forma automatizada.
 
+## Clonar el Repositorio
+
+Para comenzar a trabajar con el proyecto, primero necesitas clonar el repositorio a tu máquina local. Aquí tienes los pasos a seguir:
+
+1. **Abre tu Terminal o Línea de Comandos**:
+   - En **Windows**, puedes usar Git Bash o el símbolo del sistema (CMD).
+   - En **macOS** o **Linux**, abre la Terminal.
+
+2. **Navega al Directorio Deseado**:
+   - Antes de clonar el repositorio, asegúrate de estar en el directorio donde quieres que se guarde el proyecto. Usa el comando `cd` para cambiar de directorio. Por ejemplo:
+
+     ```sh
+     cd /ruta/a/tu/directorio
+     ```
+
+3. **Clona el Repositorio**:
+   - Ejecuta el siguiente comando para clonar el repositorio desde GitHub:
+
+     ```sh
+     git clone https://github.com/FalconAkantor/NmapTelegramScan.git
+     ```
+
+4. **Accede al Directorio del Repositorio**:
+   - Una vez que el repositorio esté clonado, entra en el directorio del proyecto con:
+
+     ```sh
+     cd NmapTelegramScan
+     ```
+
 ## Funcionalidades
 
 - **Escaneo de Red**: Detecta dispositivos activos en la red usando `nmap`.
